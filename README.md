@@ -18,6 +18,7 @@ This project focuses on optimizing multi-drone route planning for a pheromone de
 
 # Implementation
 Main Data Structure: Vectors / Nested Vectors of Tuples
+
       Vector (All Coordinates)
          |__ xCoords (vector<double>)
          |__ yCoords (vector<double>)
