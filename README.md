@@ -7,3 +7,11 @@ This project focuses on optimizing multi-drone route planning for a pheromone de
 ### Eric Via
 ### Devin Alexandre
 
+# Software Architecture:
+* C++ for high-performance computation and algorithm implementation
+* Custom K-Means class for clustering delivery locations
+* Nearest Neighbor + probabilistic variant for route optimization
+* Chrono library for enforcing time-constrained optimization (contract algorithm)
+* File I/O for reading input datasets and writing solution outputs
+* signalsmith::plot library for generating route visualizations (SVG output)
+* Cross-platform terminal handling (Windows/Linux/macOS) for user interaction
