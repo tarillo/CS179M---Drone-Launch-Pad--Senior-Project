@@ -5,5 +5,5 @@ This project focuses on optimizing multi-drone route planning for a pheromone de
 ### Neha Gutapalli
 ### Tanya Carillo
 ### Eric Via
-## Devin Alexandre
+### Devin Alexandre
 
