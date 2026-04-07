@@ -44,3 +44,6 @@ Main Data Structure: Vectors / Nested Vectors of Tuples
 5. Route Optimization (Modified NN with probabilistic improvement + time constraint)
 6. Best Solution Selection (Best-So-Far)
 7. Output Route Files + Visualization (SVG)
+
+# The Workflow: (Input Data → Optimized Drone Routes)
+Overview: Raw Data → Parse & Normalize → Clustering → Route Generation → Optimization → Output Files + Visualization
