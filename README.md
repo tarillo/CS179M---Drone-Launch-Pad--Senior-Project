@@ -15,3 +15,21 @@ This project focuses on optimizing multi-drone route planning for a pheromone de
 * File I/O for reading input datasets and writing solution outputs
 * signalsmith::plot library for generating route visualizations (SVG output)
 * Cross-platform terminal handling (Windows/Linux/macOS) for user interaction
+
+# Implementation
+Main Data Structure: Vectors / Nested Vectors of Tuples
+      Vector (All Coordinates)
+         |__ xCoords (vector<double>)
+         |__ yCoords (vector<double>)
+      
+      Vector (Clusters per Drone Configuration)
+         |__ Cluster 1 (vector<tuple<index, x, y>>)
+         |__ Cluster 2 (vector<tuple<index, x, y>>)
+         |__ Cluster 3 (vector<tuple<index, x, y>>)
+         |__ Cluster 4 (vector<tuple<index, x, y>>)
+      
+      Vector (Routes per Cluster)
+         |__ Ordered sequence of nodes (route path)
+                |__ Start (Launch Pad)
+                |__ Intermediate Nodes
+                |__ Return to Start
