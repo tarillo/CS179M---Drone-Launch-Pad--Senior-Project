@@ -37,10 +37,10 @@ Main Data Structure: Vectors / Nested Vectors of Tuples
 
 
 # The Pipeline
-* Raw Coordinate Data (.txt)
-* Data Parsing & Normalization
-* K-Means Clustering (k = 1–4 drones)
-* Route Generation (Nearest Neighbor)
-* Route Optimization (Modified NN with probabilistic improvement + time constraint)
-* Best Solution Selection (Best-So-Far)
-* Output Route Files + Visualization (SVG)
+1. Raw Coordinate Data (.txt)
+2. Data Parsing & Normalization
+3. K-Means Clustering (k = 1–4 drones)
+4. Route Generation (Nearest Neighbor)
+5. Route Optimization (Modified NN with probabilistic improvement + time constraint)
+6. Best Solution Selection (Best-So-Far)
+7. Output Route Files + Visualization (SVG)
